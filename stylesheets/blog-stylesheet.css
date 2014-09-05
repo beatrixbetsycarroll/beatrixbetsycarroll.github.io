@@ -100,22 +100,23 @@ nav a:hover{
 	vertical-align: top;
 	padding-left: 30px;
 	padding-right: 30px;
-
 	margin-left: auto;
     margin-right: auto;   
 }
 
 #prof_pic {
 	width: #about-30px;
-	border: 5px dashed black;
+	border-left: 5px dotted black;
+	border-right: 5px dotted black;
+
 }
 
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;   
-    padding-top:70px; 
-    padding-bottom:70px;
+    padding-top:50px; 
+    padding-bottom:50px;
     width: 216px; 
 }
 
