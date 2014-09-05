@@ -64,12 +64,11 @@ nav a:hover{
 }
 
 #right_side {
-	max-width: 40%;
+	max-width: 45%;
 	display: inline-block;
 	float: top;
 	vertical-align: top;
-	background-color: red;
-	border: 10px solid green;
+
 }
 
 #projects {
@@ -79,6 +78,7 @@ nav a:hover{
 	vertical-align: top;
 	padding: 30px;
 	border: 10px solid black;
+	margin-bottom: 10px;
 
 }
 
@@ -90,11 +90,20 @@ nav a:hover{
 
 
 #about {
-	width: 40%;
 	display: inline-block;
 	float: right, top;
 	background-color: white;
 	vertical-align: top;
 	padding: 30px;
 	border: 10px solid black;
+}
+
+#prof_pic {
+	width: 70%;
+	float: right;
+}
+
+p {
+	display: inline-block;
+	float: right;
 }
