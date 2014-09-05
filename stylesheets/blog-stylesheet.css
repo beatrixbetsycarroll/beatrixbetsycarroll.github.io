@@ -1,0 +1,23 @@
+html {
+	font-family: helvetica;
+}
+
+#blog_posts {
+	background-color: white;
+	color:black;
+	padding: 30px;
+}
+
+#latest_post {
+	width: 100%;
+	background-color: black;
+	color: white;
+	padding: 10px
+}
+
+.other_posts {
+	width: 45%;
+	display: inline-block;
+	float: top;
+}
+
