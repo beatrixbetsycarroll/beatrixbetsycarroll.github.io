@@ -30,7 +30,11 @@ h3 {
 
 }
 
+p {
+	text-align: justify;
+    text-justify: inter-word;
 
+}
 
 ul{
 	list-style: none;
@@ -49,7 +53,7 @@ li{
 
 p {
 	display: inline-block;
-	float: right;
+	
 }
 
 nav {
@@ -101,6 +105,18 @@ nav a:hover{
 	width: 73%;
 
 }
+
+#indiv_blog {
+	border: 10px solid black;
+	color:black;
+	padding: 30px;
+	display: inline-block;
+	float: right;
+	margin-right: 10px;
+	width: 73%;
+	height: 100%;
+}
+
 
 #latest_post {
 	max-height: 210px;
@@ -193,6 +209,7 @@ nav a:hover{
 	margin-top: 0px;
 	font-style: italic;
 	font-weight: bold;
+	text-align: left;
 }
 
 #prof_pic img{
