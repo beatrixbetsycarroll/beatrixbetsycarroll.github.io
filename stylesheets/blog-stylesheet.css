@@ -30,6 +30,15 @@ h3 {
 
 }
 
+ul{
+	list-style: none;
+	padding: 20px;
+}
+
+li{
+	padding-right: 0px;
+
+}
 
 #projects h3 {
 	margin-top: 0px;
@@ -78,6 +87,17 @@ nav a:hover{
 	display: inline-block;
 	float: top;
 	margin-right: 10px;
+
+}
+
+#blog_index {
+	border: 10px solid black;
+	color:black;
+	padding: 30px;
+	display: inline-block;
+	float: right;
+	margin-right: 10px;
+	width: 70%;
 
 }
 
@@ -157,7 +177,7 @@ nav a:hover{
 
 
 
-#about {
+#larry_welcome {
 	width: 85%;
 	display: inline-block;
 	float: right, top;
@@ -166,17 +186,20 @@ nav a:hover{
 	padding-right: 30px; 
 }
 
-#prof_pic {
-	
-}
-
-img {
-    display: block;
+#prof_pic img{
+    margin-left: auto;
+    margin-right: auto;  	
+	width:80%;
+	    display: block;
+	display: block;
     margin-left: auto;
     margin-right: auto;   
     padding-bottom:50px;
     width: 80%; 
+
 }
+
+
 
 /* BLOG TEMPLATE STYLE SHEET */
 
@@ -193,4 +216,12 @@ img {
 
 .blog_cover_photo {
 	
+}
+
+/*BLOG INDEX STYLE SHEET*/
+#archive {
+	width: 18%;
+	float:left;
+	background-color: yellow;
+	margin-right: 30px;
 }
