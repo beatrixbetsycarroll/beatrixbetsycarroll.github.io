@@ -14,7 +14,6 @@
 
 a {
 	text-decoration: none;
-	color: red;
 }
 
 h1 {
@@ -71,7 +70,7 @@ nav a{
 	font-weight: bold;
 }
 
-nav a:hover{
+a:hover{
 	background-color: black;
 	color:white;
 	font-style:italic; 
@@ -219,8 +218,20 @@ nav a:hover{
     margin-right: auto;   
 }
 
+footer {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: yellow;
+	padding-left: 30px;
+}
 
-
+footer a{
+	font-size: 30px;
+	margin-right: 30px;
+	color: yellow;
+	background-color: black;
+	font-weight: bold;
+}
 /* BLOG TEMPLATE STYLE SHEET */
 
 #blog_template {
@@ -253,5 +264,20 @@ nav a:hover{
 	background-color: black;
 	color: yellow;
 }
+
+#archive a {
+	font-size: 16px;
+	margin-right: 30px;
+	color: yellow;
+	background-color: black;
+	font-weight: bold;
+}
+
+#archive a:hover{
+	background-color: black;
+	color:white;
+	font-style:italic; 
+}
+
 
 
