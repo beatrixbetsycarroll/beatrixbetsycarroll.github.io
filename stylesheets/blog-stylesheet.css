@@ -34,7 +34,7 @@ h3 {
 
 ul{
 	list-style: none;
-	padding: 20px;
+	padding: 0px 20px 0px 20px;
 }
 
 li{
@@ -98,7 +98,7 @@ nav a:hover{
 	display: inline-block;
 	float: right;
 	margin-right: 10px;
-	width: 70%;
+	width: 73%;
 
 }
 
@@ -223,8 +223,18 @@ nav a:hover{
 
 /*BLOG INDEX STYLE SHEET*/
 #archive {
-	width: 18%;
+	width: 14%;
 	float:left;
-	background-color: yellow;
+	background-color: cyan;
 	margin-right: 30px;
 }
+
+#archive li {
+	padding:5px;
+	margin-top:10px;
+	margin-bottom: 10px;	
+	background-color: black;
+	color: yellow;
+}
+
+
