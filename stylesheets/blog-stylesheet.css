@@ -3,7 +3,7 @@
 }
 
 #dotdotdot a{
-	background-color: red;
+	background-color: yellow;
 	color: black;
 	float: right ;
 	margin-right: 20px;
@@ -17,7 +17,8 @@ a {
 }
 
 h1 {
-	background-color: red
+	background-color: magenta;
+	color: black;
 }
 
 #projects h3 {
@@ -52,7 +53,6 @@ nav a:hover{
 }
 
 #blog_posts {
-	background-color: yellow;
 	border: 10px solid black;
 	color:black;
 	padding: 30px;
@@ -64,14 +64,11 @@ nav a:hover{
 }
 
 #latest_post {
-/*	max-height: 210px; */
 	max-height: 210px;
-	border: 2px solid orange;
 }
 
 
 #latest_post_outer {
-	background-color: green;
 	color: black;
 	padding: 0px, 20px, 20px, 20px;
 	border-top: 5px dashed black;
@@ -80,19 +77,15 @@ nav a:hover{
 }
 
 .outer {
-	border: 1px solid pink;
 	display: inline-block;
 }
 
 #second_latest_post {
-	background-color: blue;
-	height: 500px;
+	height: 504px;
 	display: inline-block;
 }
 
 #second_latest_post_outer{
-	background-color: blue;
-	height: 500px;
 	display: inline-block;
 	width: 49%;
 }
@@ -103,19 +96,17 @@ nav a:hover{
 }
 
 #old_posts {
-	height: 234px;
-	color: blue;
+	height: 236px;
 	float: top;
 	display: inline-block;
 	padding: 0px;
 }
 
 .other_posts {
-	padding: 0px;
+	padding: 0px 10px 0px 0px;
 	float: top;
-	background-color: pink;	
 	color:black;
-border-bottom: 5px solid black;
+	border-bottom: 5px solid black;
 }
 
 #right_side {
@@ -130,17 +121,15 @@ border-bottom: 5px solid black;
 	float: top;
 	background-color: white;
 	vertical-align: top;
-	padding: 30px 30px 10px 30px;
+	padding: 30px 30px 0px 30px;
 	border: 10px solid black;
-	margin-bottom: 10px;
-	height:450px;
+	padding-bottom: 30px;
 }
 
 .each_project {
-	background-color:orange;
 	border-bottom: 5px solid black;
-	
-	height: 130px;
+	padding-bottom: 20px;
+	height: 128px;
 }
 
 
