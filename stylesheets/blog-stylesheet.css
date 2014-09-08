@@ -8,7 +8,8 @@
 	float: right ;
 	margin-right: 20px;
 	margin-top: 5px;
-	font-size: 16px
+	font-size: 16px;
+	font-weight: bold;
 }
 
 a {
@@ -21,6 +22,15 @@ h1 {
 	color: black;
 }
 
+h2 {
+	background-color: cyan;
+}
+
+h3 {
+
+}
+
+
 #projects h3 {
 	margin-top: 0px;
 }
@@ -31,10 +41,18 @@ p {
 	float: right;
 }
 
+nav {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: yellow;
+	padding-left: 30px;
+}
+
 nav a{
-	font-size: 18px;
+	font-size: 30px;
 	margin-right: 30px;
-	color: red;
+	color: yellow;
+	background-color: black;
 	font-weight: bold;
 }
 
@@ -143,28 +161,21 @@ nav a:hover{
 	width: 85%;
 	display: inline-block;
 	float: right, top;
-	background-color: white;
 	vertical-align: top;
 	padding-left: 30px;
-	padding-right: 30px;
-	margin-left: auto;
-    margin-right: auto;   
+	padding-right: 30px; 
 }
 
 #prof_pic {
-	width: #about-30px;
-	border-left: 5px dotted black;
-	border-right: 5px dotted black;
-
+	
 }
 
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;   
-    padding-top:50px; 
     padding-bottom:50px;
-    width: 216px; 
+    width: 80%; 
 }
 
 /* BLOG TEMPLATE STYLE SHEET */
