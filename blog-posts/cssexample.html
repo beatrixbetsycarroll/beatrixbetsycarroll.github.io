@@ -5,7 +5,7 @@
 		<style>
 			* {
 				font-family: helvetica;
-				
+				font-size: 20px;
 			}
 			#inline {
 				display: inline;
@@ -19,17 +19,49 @@
 				display: block;
 				background-color: yellow;
 			}
+			#block_with_size_settings {
+				display: block;
+				height: 140px;
+				width:200px;
+				background-color: orange;
+			}
+			#inline_with_size_settings {
+				display: inline;
+				height: 140px;
+				width:200px;
+				background-color: pink;
+			}
 		</style>
 	</head>
+
+
+
+	
 	<body>
+		<div id="inline_block">
+			This magenta div is inline-block
+		</div>
 		<div id="inline">
 			This cyan div is inline
 		</div>
 		<div id="inline_block">
-			<p>This magenta div is inline</p>
+			This magenta div is inline-block
 		</div>
+		<div id="inline">
+			This cyan div is inline
+		</div>
+		
 		<div id="block">
-			<p>This yellow div is inline</p>
+			This yellow div is plain block
+		</div>
+		<div id="block_with_size_settings">
+			This orange div is plain block with (respected) size settings
+		</div>
+		<div id="inline_block">
+			This magenta div is inline-block
+		</div>
+		<div id="inline_with_size_settings">
+			This pink div is inline with (ignored) size settings
 		</div>
 
 	</body>

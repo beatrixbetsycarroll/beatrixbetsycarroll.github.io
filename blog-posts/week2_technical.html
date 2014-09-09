@@ -25,23 +25,52 @@ href="../stylesheets/blog-stylesheet.css">
 				<h4>Blog Archive</h4>
 				<ul>
 					<li><a href="week2_technical.html">Display Inline vs Inline Block</a></li>
-					<li><a href="t1-compare-websites.html">Comparing Some of my Favorite Sites</li>
+					<li><a href="t1-compare-websites.html">Comparing Some of my Favorite Sites</a></li>
 				</ul>
 			</div>
 
 			<div id="indiv_blog">
-				<h1>Post #_</h1>
 				
-						<h2>Display Inline vs Inline Block</h2>
-						<h3>Display Inline</h3>
+				
+						<h1>Display Inline vs Inline Block</h1>
+						<h2>Display Block</h2>
 						<p>
-						If an element is being displayed inline, it will allow other elements to sit to the left and right of it on the same level as itself. This is because there is no line break before or after it. It will respect only margins/paddings to either side of it, not above or below.</p>
+						If an element is being displayed block:</p>
+							<ul>
+								<li>it will not allow other elements to sit to the left and right of it on the same level as itself by default. Unless you spec
+								This is because there is no line break before or after it (it doesn't need to be on its own line).</li>
+								<li>It will respect only margins/paddings to either side of it, not above or below.</li>
+								<li>it will not respect height and width settings; it will just take on the height and width of what it contains.</li>
+							</ul>
+						<h2>Display Inline</h2>
+						<p>
+						If an element is being displayed inline:</p>
+							<ul>
+								<li>it will allow other elements to sit to the left and right of it on the same level as itself.
+								This is because there is no line break before or after it (it doesn't need to be on its own line).</li>
+								<li>It will respect only margins/paddings to either side of it, not above or below.</li>
+								<li>it will not respect height and width settings; it will just take on the height and width of what it contains.</li>
+							</ul>
+
+						<h2>Display Inline-Block</h2>
+						<p>
+							If an element is displayed as inline-block:</p>
+							<ul>
+								<li>it will allow other elements to sit to the left and right of it on the same level as itself.
+								This is because there is no line break before or after it (it doesn't need to be on its own line...<strong>this is an inline characteristic</strong>).</li>
+								<li>It will respect only margins/paddings on all sides of it <strong>(this is one of its block like characteristics)</strong></li>
+								<li>it will respect height and width settings <strong>(this is also one of its block like characteristics)</strong> </li>
+							</ul>
 						<p>
 						I'll show you an example.</p>
-						<p>Here is a picture of how the different types render in the browser:</p>
+						<p>Here is a picture of how the different types render in the browser. Notice how the block elements don't allow anything on their level even when there is room.</p>
 						<img class="example_pic" src="../images/displayexample.png">
-						<p>Here is what the corresponding code looks like:</p>
-						<img class="example_pic" src="../images/display-example-code.png">
+						<p>Here is my code. As you can see I made a few combinations of display type and size settings, as well as the color so you can easily differentiate what div is what. I also invoked some of the divs in a few places so you can see how they do or do not nestle into the same line as each other.:</p><br>
+						<img class="example2_pic" src="../images/display_css.png">
+						<img class="example2_pic" src="../images/display_html.png">
+						
+						<img class="example_pic" src="../images/display_browser.png">
+						<p>And above is what that code renders  in the browser. Notice how the inline elements do not respect size, while the block and inline block ones do. Notice how the inline and inline block elements let the other elements sit in the same line as them, while the block elements won't even when there is room.</p>
 						<p>
 						I hope that was helpful! Thanks for stopping by.</p>
 			</div>

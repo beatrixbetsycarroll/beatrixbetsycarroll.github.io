@@ -222,6 +222,12 @@ a:hover{
 	border: 5px dotted black;
 }
 
+.example2_pic {
+	width:360px;
+	border: 5px dotted black;
+	display: inline-block;
+}
+
 footer {
 	padding-top: 10px;
 	padding-bottom: 10px;
