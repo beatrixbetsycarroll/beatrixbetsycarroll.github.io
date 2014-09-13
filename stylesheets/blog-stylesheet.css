@@ -289,5 +289,16 @@ footer a{
 	font-style:italic; 
 }
 
+#indiv_blog ul li {
+	list-style-type: circle;
+}
 
+#indiv_blog a {
+	background-color: yellow;
+	font-weight: bold;
+}
 
+#indiv_blog a:hover {
+	background-color: yellow;
+	font-style:italic; 
+}
