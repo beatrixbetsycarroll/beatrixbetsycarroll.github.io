@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css"
+href="../stylesheets/normalize.css">
+    <link rel="stylesheet" type="text/css"
+href="../stylesheets/blog-stylesheet.css">
+
+    <title>Blog Template</title>
+  </head>
+  <body>
+    <nav>
+      <a href="../index.html">. Beatrix Carroll </a>
+      <a href="../projectsindex.html">. projects </a>
+      <a href="../blogindex.html">. blog </a>
+      <a href="http://www.betsycarroll.com/" target="blank">. about me </a>
+      <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=beatrixcarroll@gmail.com&su=Beatrix!&body=yo" target="blank">. contact </a>
+      <a href="http://www.betsycarroll.com/merch.html" target="blank">. merch </a>
+    </nav>
+
+
+
+    <div id="wrapper">
+      <div id="archive">
+        <h4>Blog Archive</h4>
+        <ul>
+          <li>Latest Post</li>
+        </ul>
+      </div>
+
+      <div id="blog_index">
+        <h1>Enumerables: each and each_index</h1>
+            <h2>Enumerable#each</h2>
+            <p>
+            The .each method allows you to perform operations on a collection of objects like an array or a hash. Here is an example:
+            </p>
+            <br>
+            <p>
+              array = ["dog", "cat", "hampster"]<br>
+              array.each{ |animal| puts animal.upcase}<br>
+              # => will print:<br>
+              # => DOG<br>
+              # => CAT<br>
+              # => HAMPSTER<br>
+            </p>
+            <br>
+            <p>
+              However if you were to change your code a little so that you have:
+            </p><br>
+            <p>
+              array = ["dog", "cat", "hampster"]<br>
+              array.each{ |animal| animal.upcase}<br>
+              puts array
+            </p>
+            <br>
+            <p>You might think that you would get:</p><br>
+            <p>
+              # => (at least I thought it would print:)<br>
+              # => DOG<br>
+              # => CAT<br>
+              # => HAMPSTER
+            </p><br>
+            <p>But in fact it will print the original array that you started with.</p><br>
+            <p>
+              array = ["dog", "cat", "hampster"]<br>
+              array.each{ |animal| animal.upcase}<br>
+              puts array<br>
+              # => will print:<br>
+              # => dog<br>
+              # => cat<br>
+              # => hampster<br>
+            </p>
+            <h2>Enumerables#each_index</h2>
+            <p>
+              In the above Enumerable#each example, you are telling it: "do the thing that makes stuff uppercase to each item of the array". But then after each time it performs that task, it just moves on to the next element in the array, without actually doing anything with that last item that was just upcased.
+            </p>
+            <p>
+              So if you want to actually transform your original array as you perform each item in the original operation, you can use Enumerable#each_index.
+            </p>
+            <p>What goes into the block of each_index is different from what goes into each, so look closely at the example below and see how both the inputs and outputs are different.
+            </p>
+            <p>
+            array = ["dog", "cat", "hampster"]<br>
+            array.each_index{ |x| array[x]=array[x].upcase}<br>
+            # => will print:<br>
+            # => DOG<br>
+            # => CAT<br>
+            # => HAMPSTER<br>
+          </p>
+            <p>
+            With  .each_index, you are using an index that will correspond to the numbered index of the array. Rather than just cycling through each item one by one as they come in order (as we did in the .each example), we are calling on each item in the array by number.</p>
+            <p>Furthermore, with .each_index, you are actually reassigning what each item in the array equals to the new upcased value.</p>
+            <p>Thanks for stopping by. I hope this cleared things up for you as much as it did for me!</p>
+      </div>
+
+
+
+    </div>
+
+    <footer>
+      <a href="https://www.linkedin.com/profile/view?id=110566792&trk=nav_responsive_tab_profile_pic" target="blank">. LinkedIn </a>
+      <a href="https://twitter.com/beatrixcarroll" target="blank">. Twitter </a>
+      <a href="https://www.facebook.com/betsy.carroll2" target="blank">. Facebook </a>
+      <a href="http://instagram.com/betsycarroll" target="blank">. Instagram </a>
+      <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=beatrixcarroll@gmail.com&su=Beatrix!&body=yo" target="blank">. Email </a>
+    </footer>
+
+  </body>
+</html>
+
+
+
+
