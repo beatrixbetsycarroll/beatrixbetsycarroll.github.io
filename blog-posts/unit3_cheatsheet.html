@@ -1,0 +1,108 @@
+<!Doctype html>
+<html>
+  <head>
+  <style>
+
+  </style>
+  </head>
+
+  <body>
+  <h1>Ruby Hashes, Arrays, Strings, Integers</h1>
+  <h2>Hash</h2>
+  <ul>
+    <li><pre>hash[key]</pre></li>
+    <pre>Returns value at key.
+    </pre>
+    <pre>Example:</pre>
+    <pre>
+    h = { "a" => 1, "b" => 2 }
+    h["a"] #=> returns 1
+    </pre>
+
+
+    <li><pre>hash[key] = value</pre></li>
+    <pre>Reassigns value at key.
+    </pre>
+    <pre>Example:</pre>
+    <pre>
+    h = { "a" => 1, "b" => 2 }
+    h["a"] = 9
+    h["a"] #=> returns 9
+    </pre>
+    <li><pre>to_a → array</pre></li>
+    <pre>Converts hsh to a nested array of [ key, value ] arrays.</pre>
+    <pre>Example:</pre>
+    <pre>
+        h = { "a" => 1, "b" => 2, "c" => 3  }
+        h.to_a   #=> [["a", 1], ["b", 2], ["c", 3]]
+    </pre>
+  </ul>
+
+
+
+
+  <!--array methods-->
+  <h2>Array</h2>
+  <ul>
+    <li>
+      <pre>#length</pre>
+      <pre>Returns the number of elements in an array.</pre>
+      <pre>Exmaple: arr = [5,3,1]</pre>
+      <pre>         arr.length</pre>
+      <pre>         3</pre>
+    </li>
+    <li>
+      <pre>#index</pre>
+      <pre>Returns the position of the value in an array.</pre>
+      <pre>Takes an element in the array as an argument.</pre>
+      <pre>Exmaple: arr = [5,3,1]</pre>
+      <pre>         arr.index(3)</pre>
+      <pre>         1</pre>
+    </li>
+    <li>
+      <pre>#inject</pre>
+      <pre>Returns the sum of all elements in the array.</pre>
+      <pre>Takes two arguments: the starting sum, and a symbol</pre>
+      <pre>Exmaple: arr = [5,3,1]</pre>
+      <pre>         arr.inject(0,:+)</pre>
+      <pre>         9</pre>
+    </li>
+
+  </ul>
+
+  <!--string methods-->
+  <h2>String</h2>
+  <ul>
+    <li>
+      <pre>#length</pre>
+      <pre>Returns the length of the string</pre>
+      <pre>Exmaple: str = "bears"</pre>
+      <pre>         str.length</pre>
+      <pre>         5</pre>
+    </li>
+    <li>
+      <pre>#index</pre>
+      <pre>Returns the position of the value in an array.</pre>
+      <pre>Takes an element in the array as an argument.</pre>
+      <pre>Exmaple: arr = [5,3,1]</pre>
+      <pre>         arr.index(3)</pre>
+      <pre>         1</pre>
+    </li>
+    <li>
+      <pre>#inject</pre>
+      <pre>Returns the sum of all elements in the array.</pre>
+      <pre>Takes two arguments: the starting sum, and a symbol</pre>
+      <pre>Exmaple: arr = [5,3,1]</pre>
+      <pre>         arr.inject(0,:+)</pre>
+      <pre>         9</pre>
+    </li>
+  <h2>Integer</h2>
+ <ul>
+    <li><pre>some method</pre></li>
+    <li><pre>some method</pre></li>
+    <li><pre>some method</pre></li>
+    <li><pre>some method</pre></li>
+  </ul>
+
+  </body>
+</html>
